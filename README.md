@@ -11,3 +11,6 @@
 ```bash
 docker-compose up -d
 ```
+
+### ERD  
+![e-commerce erd](https://github.com/user-attachments/assets/3046d8a6-dff4-4e48-b401-4badfd13bc5c)
