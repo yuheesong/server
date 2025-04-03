@@ -29,3 +29,31 @@ docker-compose up -d
 ![e-commerce erd](https://github.com/user-attachments/assets/3046d8a6-dff4-4e48-b401-4badfd13bc5c)   
 
 
+### API 명세
+#### 잔액  
+- 잔액 조회
+  /api/v0/balance [GET]
+- 잔액 충전
+  /api/v0/balance/charge [POST]  
+  
+#### 상품  
+- 상품 상세 조회
+  /api/v0/products/{productId} [GET]
+- 상위 상품 조회
+  /api/v0/products/top-selling [GET]  
+  
+#### 주문  
+- 주문 조회
+  /api/v0/orders/{orderId} [GET]  
+- 주문 생성
+  /api/v0/orders [POST]  
+  
+#### 결제  
+- 결제 생성
+  /api/v0/payments [POST]
+  
+#### 선착순 쿠폰  
+- 쿠폰 조회
+  /api/v0/coupons [GET]  
+- 쿠폰 발급
+  /api/v0/coupons [POST]  
